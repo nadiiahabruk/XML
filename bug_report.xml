@@ -1,1 +1,15 @@
-
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <Bug_id>7</Bug_id>
+    <Title>The text 'ADD TO HOME SCREEN' gets cut off at the bottom of button at the maximum font size and maximum display scale (screen zoom)</Title>
+    <Severity>Trivial</Severity>
+    <Priority>low</Priority>
+    <Environment>1)Nokia X20, android 12</Environment>
+    <Environment>2)Samsung Galaxy М52, Android 11ONE UI 3.1</Environment>
+    <Environment>3)Pixel_5_API Android v 12.0 (S) - API 31 Pixel Launcher</Environment>
+    <Precondition>Choose the maximum font size and maximum display scale/screen zoom in the settings</Precondition>
+    <STR>1. Open the app</STR>
+    <STR>2. Check the UI</STR>
+    <AR>the text of 'ADD TO HOME SCREEN' gets cut off at the bottom of button</AR>
+    <ER>the text of 'ADD TO HOME SCREEN' fits the button</ER>
+</root>
